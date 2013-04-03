@@ -1,7 +1,7 @@
 znanja Content plugin for Moodle
 ================================
 
-Version: 2013031400
+Version: 2013040300
 
 Visit https://znanja.com/plugin/download for the latest documentation for this
 plugin.
