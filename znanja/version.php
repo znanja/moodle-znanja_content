@@ -24,10 +24,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$module->version      = 2013040300;
+$module->version      = 2013040400;
 $module->requires     = 2011120500;
 $module->component    = "mod_znanja";
 $module->cron         = 0;
 $module->maturity     = MATURITY_BETA;
-$module->release      = 'v1.0';
+$module->release      = 'v1.0.1';
 $module->dependencies = array('mod_scorm' => ANY_VERSION);

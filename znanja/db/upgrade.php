@@ -35,4 +35,10 @@ function xmldb_znanja_upgrade($oldversion = 0) {
 
         upgrade_mod_savepoint(true, 2013040300, 'znanja');
     }
+
+    // 2013040300 -> 2013040400
+    // No database changes
+    if ($oldversion < 2013040400) {
+        upgrade_mod_savepoint(true, 2013040400, 'znanja');
+    }
 }
